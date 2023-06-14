@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Cabecalho} from './components/Cabecalho/Index';
+import { Cabecalho } from './components/Cabecalho/Index';
+import { CardLog } from "./components/CardLog/Index";
 
 function App() {
   return (
     <div className="App">
-      <Cabecalho></Cabecalho>
+      <Cabecalho />
+      <div>
+          <CardLog></CardLog>
+      </div>
     </div>
   );
 }
