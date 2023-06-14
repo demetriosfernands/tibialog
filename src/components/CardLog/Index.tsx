@@ -1,12 +1,11 @@
-import React from 'react';
 import './Index.css';
 
-export function CardLog() {
+export function CardLog(props: any) {
     return (
         <>
-            <div>
-                <span className="hora">10:30</span>
-                <span className="info">You lose 150 hitpoints from a black knight.</span>
+            <div className="logCard">
+                <span className="hora">{props.hora}</span>
+                <span className="info">{props.info}</span>
             </div>
         </>
     );

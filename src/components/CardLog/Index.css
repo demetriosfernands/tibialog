@@ -2,6 +2,14 @@ span {
     margin-right: 10px;
 }
 
+.logCard {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: #ddd;
+}
+
 .hora {
     font-size: 18px;
     color: darkgreen;
